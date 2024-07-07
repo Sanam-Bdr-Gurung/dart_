@@ -8,17 +8,14 @@ class ForecastDetailView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         width: MediaQuery.of(context).size.width,
-        decoration: const BoxDecoration(
-          gradient: RadialGradient(colors: [
-            Color(0xff45278B),
-            Color(0xff2E335A),
-          ], center: Alignment.center, radius: 0.8),
-        ),
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            SizedBox(
+              height: 32,
+            ),
             WeatherCard(
               currentTemp: 12,
               maxTemp: 24,
