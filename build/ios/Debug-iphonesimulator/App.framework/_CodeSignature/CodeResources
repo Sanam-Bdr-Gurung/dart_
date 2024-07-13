@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		6GjG0lW62lcm4BsiIXtNQAxj5QY=
+		s6q6P02Gan7Snsmb1sh1LOBxgqA=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		TDgrm9oSpeo2Pv4/C9Dg9aAXvC4=
+		CzD51hcOi2I1tqxY/qYBGncbGDc=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,11 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		EgMERxMc9/5FtBIY0PqmEcRgS/E=
+		PKsg95tX3QhTSbLfuqL4cHj929o=
+		</data>
+		<key>flutter_assets/assets/animation/astronot.json</key>
+		<data>
+		ohAYbSYawB/Ec2rKJ8h4VHLJWq4=
 		</data>
 		<key>flutter_assets/assets/images/card_base.png</key>
 		<data>
@@ -50,7 +54,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		jPr1O4GlpoQ1Lnr0UjarAvIc1LY=
+		yUPknts0g283/7IkETfZ9P7roMo=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -71,14 +75,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5yONW+PO2ZgasvoU4sPvqV25uOzpgtdJioYwpQUD0kk=
+			nyrMI6mi/z2QhSOJUxi0TqluJ8LlXtvviSTUGE77y6o=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tLrH20Mspnk51n1WGIsWKTeogwuLrPnj29jnIWfk4eA=
+			maPkLrxDby5OE4tSi5qGnL+qnfDtPkKiuHkbmXVmecI=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -92,7 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EJvJEkV0DCTwh9KbX+7ScvYkFH91rMQ9RMOuDo39cE=
+			FXbHXtZK7cmx6R/MRSohzxQY4QPfJFgXdur33bOLXKk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/animation/astronot.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7xVRpqN1EW7+EaPXEt2+0PRxavTTLIb2KTmk0ywoOVk=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/card_base.png</key>
@@ -141,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aO7vBnUGgrT0g5VQ0TyvhEwODb6yB1uFTV6B9qSfaSM=
+			HO94S2XSLRvK3PeaBUWB1KJ00KBRIGcRDrbi4KZIKQ0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

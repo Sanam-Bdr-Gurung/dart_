@@ -1,3 +1,4 @@
+import 'package:custom_widgets/feautres/animation/view/heavy_animation/lottie_example.dart';
 import 'package:custom_widgets/feautres/dashboard/logic/dashboard_view_model.dart';
 import 'package:custom_widgets/feautres/forecast/view/forecast_detail_view.dart';
 import 'package:custom_widgets/feautres/library/view/library_view.dart';
@@ -11,18 +12,14 @@ class DashboardView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(body: Consumer(
       builder: (context, ref, child) {
+        /// Watch for the state changes
         final currentIndex = ref.watch(bottomNavIndexProvider);
         return IndexedStack(
           index: currentIndex,
           children: const [
             WeatherLibrary(),
             ForecastDetailView(),
-            Center(
-              child: Icon(
-                Icons.account_box,
-                size: 100,
-              ),
-            )
+            LottieExample(),
           ],
         );
       },

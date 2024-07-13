@@ -1,3 +1,6 @@
+import 'package:custom_widgets/feautres/animation/view/explicit/explicit.dart';
+import 'package:custom_widgets/feautres/animation/view/hero/hero_animation.dart';
+import 'package:custom_widgets/feautres/animation/view/implicit/implicit_view.dart';
 import 'package:flutter/material.dart';
 
 class WeatherLibrary extends StatelessWidget {
@@ -9,32 +12,32 @@ class WeatherLibrary extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
+          title: const Text('Animations'),
           bottom: const TabBar(
             tabs: [
               Row(
                 children: [
-                  Expanded(child: Tab(icon: Icon(Icons.thunderstorm))),
+                  Expanded(child: Tab(icon: Text('Hero'))),
                 ],
               ),
               Row(
                 children: [
-                  Expanded(child: Tab(icon: Icon(Icons.tornado))),
+                  Expanded(child: Tab(icon: Text('Implicit'))),
                 ],
               ),
               Row(
                 children: [
-                  Expanded(child: Tab(icon: Icon(Icons.sunny))),
+                  Expanded(child: Tab(icon: Text('Explicit'))),
                 ],
               ),
             ],
           ),
-          title: const Text('Weather Library'),
         ),
         body: const TabBarView(
           children: [
-            Center(child: Text('Thunder Storm Regions')),
-            Center(child: Text('Active Tornado Regions')),
-            Center(child: Text('Sunny Areas')),
+            HeroAnimation(),
+            AnimatedContainerDemo(),
+            ExplicitAnimation(),
           ],
         ),
       ),

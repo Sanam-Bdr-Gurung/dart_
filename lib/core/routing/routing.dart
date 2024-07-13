@@ -1,10 +1,11 @@
+import 'package:custom_widgets/feautres/animation/view/hero/hero_animation.dart';
 import 'package:custom_widgets/feautres/dashboard/view/dashboard_view.dart';
-import 'package:custom_widgets/feautres/forecast/view/widgets/weather_detail_screen.dart';
 import 'package:flutter/widgets.dart';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-enum AppRoute { dashboard, weatherDetail }
+enum AppRoute { dashboard, hero_demo }
 
 final GoRouter _router = GoRouter(
   initialLocation: '/dashboard',
@@ -17,10 +18,10 @@ final GoRouter _router = GoRouter(
       },
       routes: <RouteBase>[
         GoRoute(
-          path: 'details',
-          name: AppRoute.weatherDetail.name,
+          path: 'hero_demo',
+          name: AppRoute.hero_demo.name,
           builder: (BuildContext context, GoRouterState state) {
-            return const WeatherDetailScreen();
+            return const HeroAnimation();
           },
         ),
       ],
