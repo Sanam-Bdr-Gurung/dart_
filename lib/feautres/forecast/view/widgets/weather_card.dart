@@ -25,7 +25,7 @@ class WeatherCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => context.pushNamed(AppRoute.hero_demo.name),
+      onTap: () => context.pushNamed(AppRoute.weatherDetail.name),
       child: Stack(
         clipBehavior: Clip.none,
         children: [
