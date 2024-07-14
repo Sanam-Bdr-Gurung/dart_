@@ -1,6 +1,6 @@
 {
-    "name": "custom_widgets",
-    "short_name": "custom_widgets",
+    "name": "test_practice",
+    "short_name": "test_practice",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

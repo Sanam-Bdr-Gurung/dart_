@@ -1,28 +1,28 @@
-import 'package:custom_widgets/feautres/dashboard/view/dashboard_view.dart';
-import 'package:custom_widgets/feautres/forecast/view/widgets/weather_detail_screen.dart';
+import 'package:test_practice/feautres/favorite/view/favorite_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:test_practice/feautres/home/view/home.dart';
 
-enum AppRoute { dashboard, weatherDetail }
+enum AppRoute { home, favorites }
 
 final GoRouter _router = GoRouter(
-  initialLocation: '/dashboard',
+  initialLocation: '/',
   routes: <RouteBase>[
     GoRoute(
-      path: '/dashboard',
-      name: AppRoute.dashboard.name,
+      path: '/',
+      name: AppRoute.home.name,
       builder: (BuildContext context, GoRouterState state) {
-        return const DashboardView();
+        return const HomePage();
       },
       routes: <RouteBase>[
         GoRoute(
-          path: 'details',
-          name: AppRoute.weatherDetail.name,
+          path: 'favorites',
+          name: AppRoute.favorites.name,
           builder: (BuildContext context, GoRouterState state) {
-            return const WeatherDetailScreen();
+            return const FavoritesView();
           },
         ),
       ],
